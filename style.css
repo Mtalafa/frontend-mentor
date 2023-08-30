@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.car-choice {
+  flex: 1;
+  max-width: 30.07rem;
+  padding: 5rem 5rem;
+}
+
+.icon {
+  margin-bottom: 5rem;
+}
+
+.heading {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+.text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1.5rem;
+  margin-bottom: 10rem;
+}
+
+.btn {
+  font-size: 1.9rem;
+  width: 14.6rem;
+  padding: 1.2rem 0;
+  border-radius: 2.5rem;
+  border: 0.3rem #fff solid;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #fff;
+  border: 0.3rem #fff solid;
+}
+
+.btn-1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn-1:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.btn-2:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.btn-3:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.text,
+.btn {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+@media (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+  }
+}
